@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './input.scss';
 
 /*const InputFunktion = () => {
     const [inputvalue, setinputvalue] = useState("");
@@ -30,7 +31,7 @@ const InputFunktion = () => {
     <hr />
     checkbox: <input type="checkbox" />
     <hr />
-    Radio buttons:
+         Radio buttons:
         <label>
           <input type="radio" name="myRadio" value="option1" />
           Option 1

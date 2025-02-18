@@ -1,0 +1,33 @@
+.dropdown-container {
+  font-family: Arial, sans-serif;
+
+  select {
+    padding: 4px;
+    border: 2px solid #007bff;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+
+    &:hover {
+      border-color: #0056b3;
+    }
+
+    &:focus {
+      outline: none;
+      box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+    }
+  }
+
+  p {
+    margin-top: 8px;
+    font-size: 16px;
+    color: #333;
+  }
+  hr {
+    border: 0;
+    height: 2px;  /* ضخامت خط */
+    background-color: #007bff;  /* رنگ خط */
+    margin: 20px 0;
+  }
+}
